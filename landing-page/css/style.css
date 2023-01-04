@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+}
+
+.flex-container {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* first section starts */
+.hero {
+    background-color: #1f2937;
+    flex: 1;
+    color: #F9FAF8;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 8em;
+}
+/* header section starts */
+.hero header {
+    display: flex;
+}
+
+.hero header h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+    flex: 1;
+}
+
+.hero header nav {
+    padding-top: 1em;
+}
+
+.hero header nav a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+    padding: 10px;
+}
+/* header section ends */
+
+/* main wrapper of first section */
+.hero-main-wrapper {
+    display: flex;
+    padding-top: 4em;
+}
+
+.hero .hero-main-wrapper .awesome,.imageholder {
+    display: inline;
+    flex: 1;
+}
+
+.hero-main-wrapper .awesome {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.awesome h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.awesome p {
+    margin-bottom: 0.67em;
+}
+
+.awesome button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 9px 34px;
+    border: none;
+    font-size: large;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-main-wrapper .imageholder {
+    height: 240px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#6D747D;
+}
+/* main-wrapper of first section ends */
+/* first section ends */
+
+
+/* Second Section Starts */
+.section-2 {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 8em;
+}
+
+.section-2 h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.setof4-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.setof4-images img {
+    flex: 1 1 0;
+    border: 3px solid #3882f6;
+    border-radius: 25px;
+    height: 150px;
+    width: 150px;
+    min-width: 50px;
+}
+
+.setof4-images figcaption {
+    max-width: fit-content;
+}
+
+/* Second Section Ends */
+
+/* Thirds Section Starts */
+.quote-section {
+    background-color: #e5e7eb;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 3em;
+}
+
+blockquote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-section figcaption {
+    text-align: end;
+    font-weight: 900;
+    font-size: 20px;
+}
+/* Third Section Ends */
+
+/* Fourth Section Starts */
+.section-4 {
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #F9FAF8;
+}
+
